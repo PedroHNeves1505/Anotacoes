@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/styles.css">
     <title>Guia de Estudos</title>
 </head>
 <body>
     <header class="cabecalho">
-        <h1 class="cabecalho__titulo">Guia de Estudos</h1>
+        <h1 class="cabecalho__titulo titulo"><a class="cabecalho__titulo titulo" href="#">Guia de Estudos</a></h1>
         <nav class="cabecalho__navegacao">  
-            <a class="cabecalho__navegacao__item" href="#">Sobre</a>
-            <input type="checkbox" tag="lista" class="cabecalho__navegacao__lista">
+            <a class="cabecalho__navegacao__item texto" href="sobre.html">Sobre</a>
+            <input type="checkbox" id="lista" class="cabecalho__navegacao__lista texto">
             <label for="lista">Material</label>
-            <ul >
-                <li class="cabecalho__navegacao__item"><a href="./Conteudos/Conteudo-html.html">HTML</a></li>
-                <li class="cabecalho__navegacao__item"><a href="./Conteudos/Conteudo-css.html">CSS</a></li>
-                <li class="cabecalho__navegacao__item"><a href="./Conteudos/Conteudo-java.html">Java</a></li>
-                <li class="cabecalho__navegacao__item"><a href="./Conteudos/Conteudo-python.html">Python</a></li>
-                <li class="cabecalho__navegacao__item"><a href="./Conteudos/Conteudo-git.html">Git e Github</a></li>
-                <li class="cabecalho__navegacao__item"><a href="./Conteudos/Conteudo-terminal.html">Terminal</a></li>
+            <ul class="lista__menu">
+                <li class="lista__item"><a class="lista__link texto" href="./Conteudos/Conteudo-html.html">HTML</a></li>
+                <li class="lista__item"><a class="lista__link texto" href="./Conteudos/Conteudo-css.html">CSS</a></li>
+                <li class="lista__item"><a class="lista__link texto" href="./Conteudos/Conteudo-java.html">Java</a></li>
+                <li class="lista__item"><a class="lista__link texto" href="./Conteudos/Conteudo-python.html">Python</a></li>
+                <li class="lista__item"><a class="lista__link texto" href="./Conteudos/Conteudo-git.html">Git e Github</a></li>
+                <li class="lista__item"><a class="lista__link texto" href="./Conteudos/Conteudo-terminal.html">Terminal</a></li>
             </ul>
         </nav>
     </header>

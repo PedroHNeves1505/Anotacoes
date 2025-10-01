@@ -1,0 +1,32 @@
+@import url(../Styles/reset.css);
+@import url(../Styles/header.css);
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+:root {
+    --branco: #F6F0F0;
+    --preto: #000000;
+    --bege-claro: #F2E2B1;
+    --bege: #D5C7A3;
+    --bege-escuro: #BDB395;
+    --cor-hover: #5A4E3B;
+    --cor-active: #F9F5E6;
+    --fonte-titulo: "DynaPuff", system-ui;
+    --fonte-texto: "Epunda Slab", serif;
+}
+
+.titulo {
+    font-family: var(--fonte-titulo);
+    color: var(--preto);
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.texto {
+    font-family: var(--fonte-texto);
+    color: var(--preto);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
