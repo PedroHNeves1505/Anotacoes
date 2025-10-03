@@ -1,0 +1,7 @@
+.sobre {
+    margin: 3em 4em 0 4em;
+}
+
+.sobre__texto {
+    color: var(--azul);
+}

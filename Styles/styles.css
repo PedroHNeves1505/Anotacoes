@@ -1,6 +1,7 @@
 @import url(../Styles/reset.css);
 @import url(../Styles/header.css);
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
+@import url(../Styles/sobre.css);
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Press+Start+2P&display=swap');
 
 
 :root {
@@ -9,9 +10,11 @@
     --bege-claro: #F2E2B1;
     --bege: #D5C7A3;
     --bege-escuro: #BDB395;
+    --azul: #959CBD;
     --cor-hover: #5A4E3B;
     --cor-active: #F9F5E6;
     --fonte-titulo: "DynaPuff", system-ui;
+    --fonte-subtitulo: "Press Start 2P", system-ui;
     --fonte-texto: "Epunda Slab", serif;
 }
 
@@ -21,6 +24,12 @@
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
+}
+
+.subtitulo {
+    font-family: var(--fonte-subtitulo);
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .texto {
